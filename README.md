@@ -9,14 +9,14 @@ to install project dependencies
 Configure the .env file, use .env.sample as an example
 configure your postgres database(PgAdmin4), also making changes to the project.
 
-Run prism migration:
+Run prisma migration:
 
-The first to run the migration:
+firstly run the migration:
 ```
  npx prism migrate dev --name init
 ```
 
-The second to generate the prism types:
+Secondly generate the prism types:
 ```
  npx prism generate
 ```
