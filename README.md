@@ -1,3 +1,35 @@
+##Starting the project
+
+Use 
+```
+npm install
+```
+to install project dependencies
+
+Configure the .env file, use .env.sample as an example
+configure your postgres database(PgAdmin4), also making changes to the project.
+
+Run prism migration:
+
+The first to run the migration:
+```
+ npx prism migrate dev --name init
+```
+
+The second to generate the prism types:
+```
+ npx prism generate
+```
+
+use the ``` npm run build ``` command before running the application
+
+```
+ npm run build
+```
+
+If everything goes well you will have the project running
+
+
 # Turborepo starter
 
 This is an official starter Turborepo.
