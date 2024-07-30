@@ -23,7 +23,7 @@ Secondly generate the prism types:
 
 use the ``` npm run build ``` command before running the application
 
-If everything goes well you will have the project running
+### If everything goes well you will have the project running
 
 
 # Turborepo starter
