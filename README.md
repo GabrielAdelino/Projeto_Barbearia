@@ -1,4 +1,4 @@
-##Starting the project
+## Starting the project
 
 Use 
 ```
@@ -9,9 +9,9 @@ to install project dependencies
 Configure the .env file, use .env.sample as an example
 configure your postgres database(PgAdmin4), also making changes to the project.
 
-Run prisma migration:
+## Run prisma migration:
 
-firstly run the migration:
+Firstly run the migration:
 ```
  npx prism migrate dev --name init
 ```
@@ -22,10 +22,6 @@ Secondly generate the prism types:
 ```
 
 use the ``` npm run build ``` command before running the application
-
-```
- npm run build
-```
 
 If everything goes well you will have the project running
 
