@@ -9,6 +9,8 @@ to install project dependencies
 Configure the .env file, use .env.sample as an example
 configure your postgres database(PgAdmin4), also making changes to the project.
 
+**important:** Run the primas commands inside the backend folder 👇
+
 ## Run prisma migration:
 
 Firstly run the migration:
